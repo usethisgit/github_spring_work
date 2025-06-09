@@ -9,8 +9,10 @@ public class App
     {
         // the below line creates a spring container where objects are created
         ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
-        Alien alien = context.getBean("alien", Alien.class);
+        Alien alien1 = context.getBean("alien", Alien.class);
 
-        alien.code();
+
+        System.out.println(alien1.getAge());
+
     }
 }
