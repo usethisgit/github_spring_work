@@ -4,7 +4,10 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-<bean id="alien" class="com.upen.Alien">
+<bean id="alien" class="com.upen.Alien" scope="prototype">
 
 </bean>
+    <bean id="laptop" class="com.upen.Laptop">
+    </bean>
+
 </beans>
