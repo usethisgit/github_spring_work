@@ -11,8 +11,8 @@ public class App
         ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
         Alien alien1 = context.getBean("alien", Alien.class);
 
-
-        System.out.println(alien1.getAge());
+        //Laptop lap  = context.getBean("laptop", Laptop.class);
+        alien1.code();
 
     }
 }
