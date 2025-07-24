@@ -14,6 +14,13 @@ This repo is a centralized collection of Spring Framework projects, covering var
 
 ---
 
+### 2. [spring-boot-rest](spring-boot-rest/)
+- A RESTful Spring Boot project demonstrating:
+  - CRUD APIs
+  - `@RestController`, `@PostMapping`, `@GetMapping`
+  - Data persistence using Spring Data JPA
+
+
 ## 🛠 Requirements
 
 - Java 17+
